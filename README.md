@@ -1,6 +1,8 @@
 ![alt text](http://musocrat.github.io/jquery-video-lightning/images/JqueryVideoLightningIcon45.png "jQuery Video Lightning Logo") jQuery Video Lightning [![Build Status](https://travis-ci.org/musocrat/jquery-video-lightning.png)](https://travis-ci.org/musocrat/jquery-video-lightning)
 ======================
 
+### This is an experimental branch, things may break, API may change, etc...
+
 Turn any element into a lightbox or popover link for Youtube and Vimeo videos.
 
 ### Table of Contents
@@ -135,6 +137,8 @@ jQuery Video Lightning exposes all available basic API options for both Youtube 
 	X position of popover ("auto","left","center","right")
 - **popover_y** *(default="auto")*
 	Y position of popover ("auto","top","center","bottom")
+- **peek** *(default=0)*
+	Show video on mouse over element, hide on mouseout
 
 ToDo
 ----
